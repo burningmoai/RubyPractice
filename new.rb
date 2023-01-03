@@ -21,14 +21,14 @@ class Car
   def self.run(distance)
     puts "車で#{distance}キロ爆走します"
   end
-end
+# end
 
-Car.run(10)
 
-class Car
+
+# class Car
   def self.turn(direction)
     puts "華麗に#{direction}に曲がります"
   end
 end
-
+Car.run(10)
 Car.turn("右")
