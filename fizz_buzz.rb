@@ -8,7 +8,7 @@ def fizz_buzz(number)
     puts "Fizz"
   else
     return puts number
-    # number.to_sで
+    # number.to_sでOK
   end
 end
 
